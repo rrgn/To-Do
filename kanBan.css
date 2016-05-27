@@ -1,0 +1,83 @@
+.container-fluid {
+  background-color: none;
+  width: 95%;
+  font-size: 1.25em;
+}
+
+.col-md-4 {
+  /*background-color: rgba(192, 192, 192, 0.3);*/
+  font-family: arial;
+  float: left;
+  width: 32%;
+  text-align: center;
+  justify-content: center;
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+
+}
+/*
+#nav-col {
+  background-color: rgba(192, 192, 192, 0.3);
+  font-family: arial;
+  float: left;
+  text-align: center;
+  margin: 2px;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100px;
+}*/
+
+
+#planned {
+  background-color: #3498DB;
+}
+
+#in-progress {
+  background-color: #F1C40F;
+}
+
+#done {
+  background-color: #F39C12;
+}
+
+#body1 {
+  text-align: center;
+  color: black;
+  display: block;
+  margin: auto;
+}
+
+#boards {
+  justify-content: center;
+  align-items: center;
+}
+
+.postits {
+
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  color: white;
+  background-color: #9B59B6;
+  border-radius: 5px;
+
+  /*#F2EE2E #F1E57A*/
+}
+
+#delete-button {
+  background-color: #E74C3C;
+  color: white;
+}
+
+#add-button {
+  background-color: #27AE60;
+  color: white;
+}
+
+#input-field {
+  text-align: center;
+}
+.boxes {
+  width: 32.5%;
+}

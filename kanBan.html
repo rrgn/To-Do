@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="kanBan.css" media="screen" title="no title" charset="utf-8">
+    <script src="jquery.js"></script>
+    <script src="kanBan.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+    <title>Kan Ban</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Too Doo</h1>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+          <div class="input-group">
+            <span id="delete-button" class="input-group-addon">x</span>
+            <input id="input-field" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            <span id="add-button" class="input-group-addon">+</span>
+          </div>
+        </div>
+      <!-- label for 3 columns -->
+      <div class="row">
+        <div id="planned" class="col-md-4">TO-DO</div>
+        <div id="in-progress" class="col-md-4">DOING</div>
+        <div id="done" class="col-md-4">DONE</div>
+      </div>
+      <!-- body for the 3 columns -->
+      <div id="boards" class="row">
+        <div id="body1" class="col-md-4" class="to-do">
+          <!-- <div class="postits">
+            <div class="post-it">some task</div>
+          </div> -->
+        </div>
+
+        <div id="body2" class="col-md-4" class="doing">
+          <!-- <div class="postits">
+            <div class="post-it">another task</div>
+          </div> -->
+        </div>
+        <div id="body3" class="col-md-4" class="done"></div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
