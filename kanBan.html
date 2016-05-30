@@ -8,26 +8,38 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="kanBan.css" media="screen" title="no title" charset="utf-8">
-    <script src="jquery.js"></script>
-    <script src="kanBan.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="animate.css">
+    <!-- roboto font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 
     <title>Kan Ban</title>
   </head>
   <body>
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Too Doo</h1>
-      </div>
+    <div class="container animated fadeInDownBig">
+      <h1>Too Doo</h1>
+      <p class='well'>
+        || a minimal project board || <br>
+        <br>
+        made in ATL @ DigitalCrafts by rrgn
+      </p>
     </div>
+
+    <!-- <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Too Doo</h3>
+      </div>
+      <div class="panel-body">
+        a minimal project board
+      </div>
+ -->
 
     <div class="container-fluid">
       <div class="row">
           <div class="input-group">
-            <span id="delete-button" class="input-group-addon">x</span>
+            <span id="delete-button" class="input-group-addon glyphicon glyphicon-remove"></span>
             <input id="input-field" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-            <span id="add-button" class="input-group-addon">+</span>
+            <span id="add-button" class="input-group-addon glyphicon glyphicon-plus"></span>
           </div>
         </div>
       <!-- label for 3 columns -->
@@ -39,20 +51,25 @@
       <!-- body for the 3 columns -->
       <div id="boards" class="row">
         <div id="body1" class="col-md-4" class="to-do">
-          <!-- <div class="postits">
-            <div class="post-it">some task</div>
-          </div> -->
+
         </div>
 
         <div id="body2" class="col-md-4" class="doing">
-          <!-- <div class="postits">
-            <div class="post-it">another task</div>
-          </div> -->
+
         </div>
+
         <div id="body3" class="col-md-4" class="done"></div>
+
+        </div>
       </div>
 
-    </div>
 
+
+    <script src="jquery.js"></script>
+    <script src="kanBan.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+      <!-- <div class="panel-footer">|| made in ATL @ DigitalCrafts by rrgn ||</div>
+    </div> -->
   </body>
 </html>

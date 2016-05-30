@@ -1,20 +1,33 @@
+* {
+  /*font-family: -apple-system;*/
+  font-family: 'Roboto', sans-serif;
+}
+
 .container-fluid {
   background-color: none;
-  width: 95%;
-  font-size: 1.25em;
+  width: 88%;
+  font-size: 1.15em;
+
 }
 
 .col-md-4 {
   /*background-color: rgba(192, 192, 192, 0.3);*/
-  font-family: arial;
-  float: left;
-  width: 32%;
-  text-align: center;
-  justify-content: center;
+  /*font-family: arial;*/
+  width: 32.25%;
   margin: 5px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: white;
+  top: 10px;
 
+
+}
+
+h1 {
+  color: #2C3E50;
+  /*for animate CSS*/
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-delay: 0.15s;
+  /*-webkit-animation-iteration-count: infinite;*/
 }
 /*
 #nav-col {
@@ -41,43 +54,54 @@
   background-color: #F39C12;
 }
 
-#body1 {
-  text-align: center;
-  color: black;
-  display: block;
-  margin: auto;
-}
 
 #boards {
-  justify-content: center;
-  align-items: center;
+
 }
 
-.postits {
 
-  height: 100px;
-  width: 150px;
+.postits {
+  height: 100%;
+  width: 100%;
   text-align: center;
   color: white;
-  background-color: #9B59B6;
-  border-radius: 5px;
-
-  /*#F2EE2E #F1E57A*/
+  background-color: #3498DB;
+  /*border-radius: 5px;*/
+  margin: 1.25px;
+  padding: 1px;
+  /*for animate CSS*/
+  -webkit-animation-duration: 3s;
+  /*-webkit-animation-delay: 0.15s;*/
+  /*-webkit-animation-iteration-count: infinite;*/
 }
 
 #delete-button {
   background-color: #E74C3C;
   color: white;
+  /*background-color: white;
+  color: #E74C3C;*/
+  /*font-size: 1em;*/
+  font-weight: bold;
 }
 
 #add-button {
   background-color: #27AE60;
   color: white;
+  /*background-color: white;
+  color: #27AE60;*/
+  /*font-size: 1em;*/
+  font-weight: bold;
 }
 
 #input-field {
   text-align: center;
+  font-size: 1em;
+  color: #2C3E50;
+  /*font-weight: bold;*/
+  top: 1px;
 }
-.boxes {
-  width: 32.5%;
+
+.panel-footer {
+
+
 }
